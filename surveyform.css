@@ -1,0 +1,26 @@
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name-label{
+    display: flex;
+    flex-direction: column;
+}
+
+#email-label{
+    display: flex;
+    flex-direction: column;
+}
+
+#number-label{
+    display: flex;
+    flex-direction: column;
+}
+
+#product-label{
+    display: flex;
+    flex-direction: column;
+}
+

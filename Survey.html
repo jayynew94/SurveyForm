@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="surveyform.css">
+        <title>Survey Form</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1 id="title">RosieRootz Survey Form</h1>
+        <p id="description">Thank you for taking time to improve our products!</p>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label">Name <input id="name" type="text" placeholder="Enter Your Name" required /></label>
+                <label id="email-label">Email <input id="email" type="email"  placeholder="Enter Your Name"required/></label>
+                <label id="number-label">Age(optional)<input id="number" type="number" min="13" max="120" placeholder="Age"/></label>
+                <label id="product-label">Which product is your Favorite?
+                    <select>
+                        <option value="">Select Your Favorite</option>
+                        <option value="1">Honey Dew Glaze</option>
+                        <option value="2">Rose Blossom Foam</option>
+                        <option value="3">Rose Braiding Fertilizer</option>
+                    </select>
+                </label>
+                <label id="recommendation">Would you recommend RosieRootz to a friend?</label>
+                <label><input name="radio-btn" type="radio"/>Definitely</label>
+                <label><input name="radio-btn" type="radio"/>Maybe</label>
+                <label><input name="radio-btn" type="radio"/>Not sure</label>
+                <label>What type of products would you like to see? (Check all that apply)</label>
+                
+            </fieldset>
+        </form>
+    </body>
+</html>
