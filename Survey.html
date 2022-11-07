@@ -26,13 +26,18 @@
                 <label><input name="radio-btn" type="radio"/>Maybe</label>
                 <label><input name="radio-btn" type="radio"/>Not sure</label>
                 <label>What type of products would you like to see? (Check all that apply)</label>
-                <label><input type="checkbox"/>Shampoo</label>
-                <label><input type="checkbox"/>Deep Conditioner</label>
-                <label><input type="checkbox"/>Detangler</label>
-                <label><input type="checkbox"/>Moisturizer</label>
-                <label><input type="checkbox"/>Curl Gel</label>
-                <label><input type="checkbox"/>Silk Serum</label>
+                <label name="shampoo"><input type="checkbox"/>Shampoo</label>
+                <label name="conditioner"><input type="checkbox"/>Deep Conditioner</label>
+                <label name="detangler"><input type="checkbox"/>Detangler</label>
+                <label name="moisturizer"><input type="checkbox"/>Moisturizer</label>
+                <label name="curl-gel"><input type="checkbox"/>Curl Gel</label>
+                <label name="silk-serum"><input type="checkbox"/>Silk Serum</label>
+                <label  id="suggestions"name="comments">Comments Or Suggestions?
+                    <textarea id="comments" rows="4" cols="30">
+                </textarea>
+            </label>
             </fieldset>
+            <input type="submit" value="submit"/>
         </form>
     </body>
 </html>
