@@ -3,7 +3,9 @@ body {
     height: 100vh;
     margin: 0;
     color: rgb(180, 8, 171);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Comic Sans MS,
+        Comic Sans,
+        cursive;
     font-size: 16px;
     background: linear-gradient(45deg, rgb(239, 111, 235) 25%,lightpink, rgb(107, 193, 107), transparent);;
 }
