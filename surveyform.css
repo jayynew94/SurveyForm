@@ -61,11 +61,16 @@ textarea {
 }
 
 #products{
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 #suggestions{
     padding-top: 25px;
+}
+
+#email-label{
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 input[type="submit"] {
@@ -74,11 +79,14 @@ input[type="submit"] {
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
-    background-color: #3b3b4f;
+    background-color: pink;
     border-color: white;
     min-width: 300px;
 }
 
+html{
+    height: 1500px;
+}
 
 .inline {
             width: unset;
@@ -86,3 +94,6 @@ input[type="submit"] {
             vertical-align: middle;
         }
 
+#comments{
+color: rgb(180, 8, 171);
+}
