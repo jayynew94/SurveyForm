@@ -8,7 +8,7 @@ This is a simple registration form using Html and CSS.
   ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
   
-#Preview Of Project 
+# Preview Of Project 
 <img width="1440" alt="Screen Shot 2022-11-07 at 10 09 27 AM" src="https://user-images.githubusercontent.com/93681678/200358674-23a0d0c0-d948-40f8-b274-851517dc9b57.png">
 
 User Stories:
